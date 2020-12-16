@@ -21,7 +21,8 @@ L’application contient les composants suivant :
 
 · Gestions des affectations des propriétaires à leurs immobiliers achetés.
 
-3· Gestion utilisateurs : 
+    Gestion utilisateurs :
+    
 Gestion des utilisateurs (l’ajout, modification, suppression), Gestion des profils utilisateurs ( il y a deux profils : Administrateur ou utilisateur normal). L’administrateur a droit de création des utilisateurs et l’affectation des profils. L’utilisateur normale a accès aux fonctionnalités de gestion immobilière et gestion de propriétaires. Noter que les différents type d’immobilier ont des caractéristiques communes comme (surface totale, prix de revient, prix de vente, etc…).
 
 Language de programmation: Java
