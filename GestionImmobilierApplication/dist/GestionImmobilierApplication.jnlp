@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GestionImmobilierApplication.jnlp">
+  <information>
+    <title>GestionImmobilierApplication</title>
+    <vendor>Youcode</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GestionImmobilierApplication.jar" size="6225" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GestionImmobilierApplication" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="gestionimmobilierapplication.GestionImmobilierApplication"  name="GestionImmobilierApplication" />
+  <update check="always"/>
+</jnlp>

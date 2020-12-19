@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestionimmobilierapplication.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <AnchorPane prefHeight="67.0" prefWidth="600.0" style="-fx-background-color: #808080;">
+         <children>
+            <Text fill="WHITE" layoutX="36.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gestion Immobilier">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="67.0" prefHeight="333.0" prefWidth="297.0" style="-fx-background-color: #C0C0C0;">
+         <children>
+            <Text layoutX="55.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Gestion immobilier  &#10;- Gestion des propriétaires">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+              <Button fx:id="button" layoutX="57.0" layoutY="257.0" onAction="#handleButtonAction" prefHeight="30.0" prefWidth="188.0" style="-fx-background-color: #808080; -fx-background-radius: 10; -fx-border-color: 2;" text="Accueil" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <TextField layoutX="55.0" layoutY="101.0" prefHeight="31.0" prefWidth="188.0" promptText="Username" />
+            <PasswordField layoutX="55.0" layoutY="199.0" prefHeight="31.0" prefWidth="188.0" promptText="Password" />
+            <ComboBox layoutX="55.0" layoutY="151.0" prefHeight="31.0" prefWidth="188.0" promptText="Type" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="401.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Admin panel">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TextField layoutX="357.0" layoutY="169.0" prefHeight="31.0" prefWidth="188.0" promptText="Username" />
+      <Button layoutX="357.0" layoutY="285.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="188.0" style="-fx-background-color: #00FF00; -fx-background-radius: 10;" text="Log in" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <PasswordField layoutX="357.0" layoutY="225.0" prefHeight="31.0" prefWidth="188.0" promptText="Password" />
+    </children>
+</AnchorPane>
